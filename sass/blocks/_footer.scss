@@ -1,0 +1,59 @@
+.footer {
+    margin-top: 158px;
+    &__wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        padding: 40px 40px 40px 40px;
+        width: 300px;
+        border: 2px solid #D5621D;
+        border-radius: 5px;
+        &-text {
+            margin-top: 20px;
+            font-family: 'Stolzl';
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        &-divider {
+            margin-top: 45px;
+            margin-bottom: 10px;
+            border: 1px solid #FFFFFF;
+        }
+        
+    }
+    &__maps {
+        border: 2px solid #D5621D;
+        border-radius: 5px;
+
+    }
+    &__suptitle {
+        margin-bottom: 40px;
+        width: 210px;
+    }
+    &__subtitle {
+        margin-top: 35px;
+        text-align: start;
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+    }
+    &__divider {
+        margin-top: 100px;
+        border: 1px solid #FFFFFF;
+    }
+    &__block {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__copyright, &__company {
+        font-family: 'Stolzl';
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+}

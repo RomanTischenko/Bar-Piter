@@ -1,0 +1,95 @@
+.kitchen {
+    margin-top: 120px;
+    &__corousel {
+        position: relative;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 80px 110px 0 110px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 486px;
+        padding-bottom: 25px;
+        &-img {
+            margin-right: 25px;
+            
+        }
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-price {
+            font-family: 'Gotham Pro';
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: 2px solid #D5621D;
+            border-radius: 5px;
+            padding: 10px 20px 7px 20px;
+        }
+        &-weight {
+            font-family: 'Stolzl';
+            font-weight: 400;
+            font-size: 14px;
+            color: #D5621D;
+        }
+        &-descr {
+            margin-top: 10px;
+            font-family: 'Stolzl';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 80px auto 0 auto;
+        width: 171px;
+        height: 57px;
+        background: #D5621D;
+        border-radius: 5px;
+        font-family: 'Gotham Pro';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        transition: 0.6s all;
+        &:hover {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+}
+
+.slick-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #210E09;
+    border: 0;
+    z-index: 1000;
+}
+.slick-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #210E09;
+    border: 0;
+}

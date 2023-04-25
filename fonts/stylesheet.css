@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Stolzl';
+    src: url('Stolzl-Regular.eot');
+    src: local('Stolzl Regular'), local('Stolzl-Regular'),
+        url('Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Stolzl-Regular.woff2') format('woff2'),
+        url('Stolzl-Regular.woff') format('woff'),
+        url('Stolzl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Bold.eot');
+	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Bold.woff') format('woff'),
+		url('GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Black.eot');
+	src: local('Gotham Pro Black'), local('GothamPro-Black'),
+		url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Black.woff') format('woff'),
+		url('GothamPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+

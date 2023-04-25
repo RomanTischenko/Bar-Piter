@@ -1,0 +1,72 @@
+.companyparty {
+    margin-top: 40px;
+    &__suptitle {
+        width: 221px;
+    }
+    &__title {
+        margin-top: 40px;
+    }
+    &__header {
+        margin-top: 100px;
+        font-family: 'Gotham Pro';
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        margin-right: 60px;
+        width: 350px;
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &-descr {
+            margin-top: 40px;
+            font-family: 'Stolzl';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    &__list {
+        display: block;
+        margin: 60px auto 0 auto;
+        padding: 0;
+        width: 636px;
+        li {
+            position: relative;
+            padding: 0 0 0 25px;
+            margin: 0 0 15px 0;
+            list-style-type: none;
+            font-family: 'Stolzl';
+            font-weight: 400;
+            font-size: 18px;
+            color: #FFFFFF;
+            line-height: 25px;
+            &::before {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                background: #D5621D;
+                position: absolute;
+                top: 6px;
+                left: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.techrider {
+    margin-top: 150px;
+    &__wrapper {
+        margin-top: 80px;
+    }
+    &__suptitle {
+        width: 260px;
+    }
+    &__title {
+        margin-top: 40px;
+    }   
+    &__subtitle {
+        text-align: left;
+    }
+    &__blocks {
+        padding: 0 120px 0 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 526px;
+        background: rgba(213, 98, 29, 0.1);
+        border-radius: 5px;
+        margin-bottom: 20px;
+        &:hover .techrider__list {        
+            display: block;
+            background: #D5621D;
+        }
+        &:hover .techrider__header {
+            background: #D5621D;
+        }
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+    }
+    &__names {
+        font-family: 'Gotham Pro';
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+    &__arrow {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-top: 3px solid #fff;
+        border-right: 3px solid #fff;
+        transform: rotate(135deg);
+    }
+    &__list {
+        display: none;
+        padding: 0 0 20px 55px;
+        margin: 0;
+
+    }
+    &__link {
+        line-height: 30px;
+        font-family: 'Stolzl';
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+    } 
+    &__block {
+        margin-top: 80px;
+        width: 445px;
+    }
+    &__pipls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__dicrtors {
+        font-family: 'Gotham Pro';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }  
+    &__person {
+        margin-top: 50px;
+        width: 200px;
+    }
+    &__name {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 125px;
+        font-family: 'Gotham Pro';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__social {
+        display: flex;
+        margin: 0 auto;
+        width: 105px;
+        margin-top: 25px;
+        justify-content: space-between;
+        
+    }
+}
+

@@ -1,0 +1,41 @@
+.gallery {
+    margin-top: 55px;
+    &__suptitle {
+        width: 220px;
+    }
+    &__title {
+        margin-top: 40px;
+    }
+    &__wrapper {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        width: 306px;
+        height: 350px;
+        transition: 0.6s all;
+        margin-bottom: 25px;
+        &-icon {
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translateX(-50%);
+            transition: 0.6s all;
+            cursor: pointer;
+
+        }
+        &:hover &-icon {
+            display: block;
+        }
+        &:hover &-img {
+            transition: 0.6s all;
+            opacity: 0.2;
+        }
+    }
+    
+}

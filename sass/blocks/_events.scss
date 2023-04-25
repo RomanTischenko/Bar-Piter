@@ -1,0 +1,32 @@
+.events {
+    margin-top: 150px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+    }
+    &__item {
+        width: 376px;
+        &-title {
+            margin-top: 40px;
+        }
+        &-suptitle {
+            padding: 10px 20px 7px 20px;
+            width: 260px;
+        }
+        &-text {
+            margin-top: 35px;
+            font-family: 'Stolzl';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &-btn {
+            display: block;
+            margin: 35px auto 0 auto;
+            width: 156px;
+        }
+    }
+}
